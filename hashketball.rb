@@ -210,9 +210,9 @@ def big_shoe_rebounds
         largest_shoe == player[:player_name]
       end 
       if player[:player_name] == largest_shoe
-        return player[:rebounds]
+        total_rebounds += player[:rebounds]
     end 
-    binding.pry 
   end 
   end 
+  total_rebounds
 end 
