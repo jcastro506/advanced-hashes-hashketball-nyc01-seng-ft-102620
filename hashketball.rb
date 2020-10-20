@@ -200,5 +200,9 @@ def player_stats(player_name)
 end 
 
 def bid_shoe_rebounds 
+  total_rebounds = 0 
+  largest_shoe= ""
   
+  game_hash.each do |team, stats|
+    stats[:player]
 end 
