@@ -199,7 +199,7 @@ def player_stats(player_name)
   end 
 end 
 
-def bid_shoe_rebounds 
+def big_shoe_rebounds 
   total_rebounds = 0 
   shoe_nubmers = 0 
   largest_shoe= ""
